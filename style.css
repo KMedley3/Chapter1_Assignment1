@@ -1,0 +1,221 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    width: 100%;
+    background-color: gold;
+    border: 5px;
+    border-color: rgb(0, 0, 82);
+    border-radius: 20%;
+    border-style: solid;
+    height: 40px;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 74);
+    font-size: large;
+}
+
+a:hover {
+    color: blue;
+}
+
+li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.bio-header-container {
+    background-color: rgb(1, 1, 66);
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+}
+
+.interest-container {
+    background-color: rgba(128, 128, 128, 0.653);
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(1, 1, 52);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-shadow: 2px 2px black;
+    color: gold;
+}
+
+.interest-header {
+    text-align: left;
+    text-shadow: 2px 2px black;
+    color: gold;
+}
+
+.bio-container {
+    background-color: rgba(128, 128, 128, 0.653);
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(1, 1, 52);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.bio-header {
+    text-align: left;
+    text-shadow: 2px 2px black;
+    color: gold;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: gold;
+    text-shadow: 2px 2px black;
+    border: 5px;
+    border-radius: 5%;
+    border-style: solid;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-color: gold;
+    padding: 5px;
+}
+
+.form-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 8px;
+    text-align: center;
+    border-radius: 10%;
+    border-color: rgb(1, 1, 52);
+    background-color: rgba(128, 128, 128, 0.653);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+
+
+body {
+
+    background-image: url(static/IMG_0819.JPG);
+    background-size: 500px 500px;
+    background-repeat: repeat;
+
+}
+
+.wrap-container {
+    display: grid;
+    margin: 40%;
+    justify-content: center;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 50px;
+    margin: 10px;
+    max-height: 1500px;
+}
+
+.pic1 {
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 66);
+    border-style: groove;
+
+}
+
+.My-Interest {
+
+    font-weight: 800px;
+    background-color: rgba(128, 128, 128, 0.653);
+    color: gold;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h2 {
+    margin: 0px;
+    border: groove;
+    border-width: 5px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-color: gold;
+}
+
+.header-h2 {
+    text-align: center;
+    width: 20%;
+    border: groove;
+    border-width: 5px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-color: gold;
+}
+
