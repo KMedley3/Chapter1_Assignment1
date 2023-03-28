@@ -28,7 +28,7 @@
                         </li>
                         <li>
                             <navbar class="items">
-                                <a href="contact.html">Contact</a>
+                                <a href="#">Contact</a>
                             </navbar>
                         </li>
                     </ul>
@@ -36,17 +36,18 @@
         </div>
     </nav>
     </header>
-
+                                <!-- Everything is commented out below is for the main page. 
+                                Not sure if it should just be deleted or not. g -->
     <!-- Bio section -->
-    <section>
+    <!-- <section>
          <div class="bio-header-container">
             <h1>
                 Who is Keenan Medley?
             </h1>
          </div>
-    </section>
+    </section> -->
     <!-- MyBackground -->
-    <section>
+    <!-- <section>
         <div class="bio-container">
             <div class="bio-header">
                 <h2 class="header-h2">Background</h2>
@@ -60,10 +61,10 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- My Interest section -->
-    <section>
+    <!-- <section>
         <div class="interest-container">
             <div class="interest-header">
                 <h2 class="header-h2">My Interest</h2>
@@ -76,10 +77,10 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Interest Visuals -->
-    <section class="interest-visuals" id="interest-visuals">
+    <!-- <section class="interest-visuals" id="interest-visuals">
         <div class="wrap-container">
             <div class="wrapper1">
                 <div class="My-Interest">
@@ -114,8 +115,68 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <!-- Form sections -->
+    <section>
+        <div class="form-container">
+            <form action="#"><h2>Let's Connect!</h2>
+                <p>If you notice that we have any of the same interest let's connect! Fill out this form. <br>
+                I enjoy making friends and meeting new people. Especially we like the same sports teams. </p> <br>
+               
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" placeholder="John" required>
+                <br>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Wick" required>
+                <br>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" min="1" max="99" >
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="myemail@skl.com">
+                <br>
+            </div>
+            <div>
+
+                <label for="SportTitle"><strong>Favorite Sport</strong></label>
+                <br>
+
+                <label for="favsport">Football:</label>
+                <input type="radio" name="favsport" value="Football" id="Football">
+                <br>
+        
+                <label for="favsport">Basketball: </label>
+                <input type="radio" name="favsport" value="Basketball" id="Basketball">
+                <br>
+            
+                <label for="favsport">Not a sports fan: </label>
+                <input type="radio" name="favsport" value="Not a sports fan" id="Not a sports fan">
+                <br>
+            
+                <label for="favsport">Other:</label>
+                <input type="radio" name="favsport" value="Other" id="Other">
+                <br>
+            </div>
+            <div>
+                <label for="interest"><strong>Other Interest & Info</strong></label>
+                <input type="textarea">
+                <br>
+            </div>
+            <div> 
+                <input type="submit">
+            </div>
+
+            </form>
+        </div>
+    </section>
 
 
 </body>
